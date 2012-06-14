@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["ariejan@ariejan.net"]
   gem.description   = %q{A simple extension to ruby to use probability in your apps. Great for games and stuff.}
   gem.summary       = %q{Add probability to your app.}
-  gem.homepage      = "https://github.com/ariejan/probability"
+  gem.homepage      = "http://ariejan.github.com/probability/"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
