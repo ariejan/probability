@@ -4,4 +4,4 @@ rvm:
   - 1.9.3
   - rbx-19mode
 script:
-  - "ruby test/core_ext/integer_ext_text.rb"
+  - "rake spec"
