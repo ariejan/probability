@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'probability'
+require File.expand_path('../../../lib/probability', __FILE__)
 
 class IntegerExtTest < Test::Unit::TestCase
   def test_probability_in
