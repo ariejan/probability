@@ -2,7 +2,7 @@
 require File.expand_path('../lib/probability/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Ariejan de Vroom"]
+  gem.authors       = ["Ariejan de Vroom", "Austin Schaefer"]
   gem.email         = ["ariejan@ariejan.net"]
   gem.description   = %q{A simple extension to ruby to use probability in your apps. Great for games and stuff.}
   gem.summary       = %q{Add probability to your app.}
