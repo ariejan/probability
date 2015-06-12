@@ -1,4 +1,4 @@
-# Probability [![Build Status](https://travis-ci.org/SyxHyTex/probability.svg)] (http://travis-ci.org/ariejan/probability)
+# Probability [![Build Status](https://secure.travis-ci.org/ariejan/probability.png?branch=master)] (http://travis-ci.org/ariejan/probability)
 
 Probability gives you an easy way to perform code only every so
 often, based on your input.
