@@ -1,0 +1,10 @@
+CHANGELOG
+
+2.0.0
+- Added float.rb
+- Added type checking for integer.rb and float.rb
+- Added test cases for float class in probability_spec.rb
+
+
+1.0.0
+- Initial release

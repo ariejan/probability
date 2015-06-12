@@ -1,6 +1,8 @@
 require File.expand_path(File.dirname(__FILE__) + "/spec_helper")
 
-describe "Probability for Integer" do
+describe Integer do
+
+  #Integer.rb test cases
   context "1.in(1)" do
     subject { 1.in(1) }
     specify { should be_true }
@@ -25,4 +27,26 @@ describe "Probability for Integer" do
       expect { |b| 0.in(1, &b) }.to_not yield_with_no_args
     end
   end
+
+end
+
+describe Float do
+
+  #Float.rb test cases
+  #TODO: Actually test the test cases.
+  context "3.999.in(0.000)" do
+    subject { 3.999.in(0.000) }
+    specify { should be_false }
+  end
+
+  context "1.001.in(1.000)" do
+    subject {1.001.in(1.000) }
+    specify {should be_true}
+  end
+
+  context "0.000.in(1.010) " do
+    subject { 0.000.in(1.010) }
+    specify { should be_false }
+  end
+
 end
